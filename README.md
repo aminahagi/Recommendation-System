@@ -9,8 +9,9 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Content-Based Recommendation](#content-based-recommendation)
-- [Collaborative Filtering](#collaborative-filtering)
+- [Data Understanding](#Data-Understanding)
+- [Data Preparation](#Data-Preparation)
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Model-Based Recommendation](#model-based-recommendation)
 - [Contributing](#contributing)
 - [Authors](#Authors)
@@ -21,8 +22,9 @@ This Movie Recommendation System is a Python-based project that provides movie r
 
 ## Features
 
-- Content-Based Recommendation
-- Collaborative Filtering
+- Data Understanding
+- Data Preparation
+- Exploratory Data Analysis
 - Model-Based Recommendation
 - User-friendly interface
 - Easy-to-use API
@@ -98,6 +100,6 @@ We welcome contributions from the community. If you'd like to contribute to this
 - [Joy Ogutu](https://github.com/Ogutu01)
 - [David Ambani](https://github.com/bulemi2)
 - [Brian Chacha](https://github.com/MarwaBrian)
-- [Dennis Kimani]()
+- [Dennis Kimani](https://github.com/dennismathu)
 - [Amina Hagi](https://github.com/aminahagi)
-- [Sadi Kiri]()
+- [Sadi Kiri](https://github.com/Gsothr1234)
