@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-![movie_recommendation_system](movie_recommendation_system.jpg)
+![movie_recommendation_system](https://github.com/aminahagi/Recommendation-System/assets/117739559/8f1bc681-ce60-4ad7-9943-1d13abf42f7e)
 
 ## Table of Contents
 
