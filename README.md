@@ -42,14 +42,18 @@ To run this project, you need the following prerequisites:
 - Flask (for the web interface)
 
 You can install these packages using pip:
-    pip install pandas scikit-learn scikit-surprise flask
+
+        pip install pandas scikit-learn scikit-surprise flask
 
 ## Installation
 Clone this repository:
+
         git clone https://github.com/your-username/movie-recommendation-system.git
 
 Change to the project directory:
+
         cd movie-recommendation-system
+        
 ## Content-Based Recommendation
 Our content-based recommendation system uses movie genres and user preferences to suggest similar movies. It calculates the TF-IDF (Term Frequency-Inverse Document Frequency) matrix and uses the sigmoid kernel for similarity scores.
 
