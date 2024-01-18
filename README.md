@@ -53,12 +53,26 @@ Clone this repository:
 Change to the project directory:
 
         cd movie-recommendation-system
-        
-## Content-Based Recommendation
-Our content-based recommendation system uses movie genres and user preferences to suggest similar movies. It calculates the TF-IDF (Term Frequency-Inverse Document Frequency) matrix and uses the sigmoid kernel for similarity scores.
 
-## Collaborative Filtering
-The collaborative filtering technique provides movie recommendations based on user-user similarity. It uses a user-item matrix and computes the similarity between users. You can choose between user-based and item-based collaborative filtering.
+
+## Data Understanding
+The dataset used in this project contains 100,836 ratings and 3,683 tag applications across 9,742 movies. It includes information about movies, user ratings, and tags. Key data files include:
+- `movies.csv`: Contains movie information (movieId, title, genres).
+- `ratings.csv`: Contains user ratings (userId, movieId, rating).
+- `tags.csv`: Contains user-generated metadata about movies (userId, movieId, tag).
+- `links.csv`: Provides identifiers for linking to external movie-related sources (imdbId, tmdbId).
+
+## Data Preparation
+- Irrelevant columns, such as `timestamp`, were removed from the dataset.
+- Missing values were checked and handled (if any).
+- Duplicate values were checked and removed (if any).
+
+## Exploratory Data Analysis
+- Explored different movie genres and their counts.
+- Visualized the top 5 movie genres and their percentage ratios.
+- Analyzed top-watched movies.
+- Analyzed top-rated movies.
+- Visualized the rating distribution.
 
 ## Model-Based Recommendation
 Our model-based recommendation uses matrix factorization and the SVD algorithm to predict movie ratings for users. It fine-tunes the model parameters for optimal performance.
@@ -66,7 +80,7 @@ Our model-based recommendation uses matrix factorization and the SVD algorithm t
 ## Contributing
 We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
 
-## Fork the repository.
+### Fork the repository.
 1. Create a new branch for your feature:
 
         git checkout -b feature-name.
