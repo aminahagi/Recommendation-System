@@ -42,9 +42,7 @@ To run this project, you need the following prerequisites:
 - Flask (for the web interface)
 
 You can install these packages using pip:
-
-```bash
-pip install pandas scikit-learn scikit-surprise flask
+    pip install pandas scikit-learn scikit-surprise flask
 
 ## Installation
 Clone this repository:
