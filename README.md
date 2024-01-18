@@ -67,9 +67,17 @@ Our model-based recommendation uses matrix factorization and the SVD algorithm t
 We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
 
 ## Fork the repository.
-1. Create a new branch for your feature: git checkout -b feature-name.
-2. Make your changes and commit them: git commit -m 'Add feature-name'.
-3. Push to the branch: git push origin feature-name.
+1. Create a new branch for your feature:
+
+        git checkout -b feature-name.
+   
+2. Make your changes and commit them:
+ 
+       git commit -m 'Add feature-name'.
+3. Push to the branch:
+  
+       git push origin feature-name.
+   
 4. Create a pull request.
 
 ## Authors
