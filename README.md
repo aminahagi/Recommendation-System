@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-![movie_recommendation_system](https://github.com/aminahagi/Recommendation-System/assets/117739559/ee10f639-2b2e-43e1-9c4e-98873fdbbe7b)
+![movie_recommendation_system](movie_recommendation_system.jpg)
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-This Movie Recommendation System is a Python-based project that provides movie recommendations to users based on various recommendation techniques. It combines Content-Based, Collaborative Filtering, and Model-Based recommendation approaches to offer personalized movie suggestions.
+This Movie Recommendation System is a Python-based project that provides movie recommendations to users based on various recommendation techniques. It combines Data Understanding, Data Preparation, Exploratory Data Analysis(EDA), Content-Based, Collaborative Filtering and Model-Based recommendation approaches to offer personalized movie suggestions.
 
 ## Features
 
