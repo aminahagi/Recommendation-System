@@ -12,6 +12,8 @@
 - [Data Understanding](#Data-Understanding)
 - [Data Preparation](#Data-Preparation)
 - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+- [Content-Based Recommendation](#Content-Based-Recommendation)
+- [Collaborative Filtering](#Collaborative-Filtering)
 - [Model-Based Recommendation](#model-based-recommendation)
 - [Contributing](#contributing)
 - [Authors](#Authors)
@@ -25,6 +27,8 @@ This Movie Recommendation System is a Python-based project that provides movie r
 - Data Understanding
 - Data Preparation
 - Exploratory Data Analysis
+- Content-Based Recommendation
+- Collaborative Filtering
 - Model-Based Recommendation
 - User-friendly interface
 - Easy-to-use API
@@ -75,6 +79,12 @@ The dataset used in this project contains 100,836 ratings and 3,683 tag applicat
 - Analyzed top-watched movies.
 - Analyzed top-rated movies.
 - Visualized the rating distribution.
+
+## Content-Based Recommendation
+Our content-based recommendation system uses movie genres and user preferences to suggest similar movies. It calculates the TF-IDF (Term Frequency-Inverse Document Frequency) matrix and uses the sigmoid kernel for similarity scores.
+
+## Collaborative Filtering
+The collaborative filtering technique provides movie recommendations based on user-user similarity. It uses a user-item matrix and computes the similarity between users. You can choose between user-based and item-based collaborative filtering.
 
 ## Model-Based Recommendation
 Our model-based recommendation uses matrix factorization and the SVD algorithm to predict movie ratings for users. It fine-tunes the model parameters for optimal performance.
